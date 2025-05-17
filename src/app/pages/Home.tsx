@@ -8,11 +8,15 @@ import Video from '../components/Video'
 import WebDesignService from '../components/WebDesignService'
 import FeaturedWorks from '../components/FeaturedWorks'
 import AwardsSection from '../components/AwardsSection'
+import Clients from '../components/Clients'
+import TeamSection from '../components/TeamSection'
+import NewsSection from '../components/NewsSection'
+import Footer from '../components/Footer'
 
 const Home = () => {
     return (
-        <div>
-            <main className="relative min-h-screen overflow-hidden">
+        <div className='bg-black'>
+            <main className="relative min-h-screen overflow-hidden z-20">
                 <CustomCursor />
                 <Header />
                 {/* <SocialSidebar /> */}
@@ -22,7 +26,11 @@ const Home = () => {
                 <WebDesignService/>
                 <FeaturedWorks/>
                 <AwardsSection/>
+                <Clients/>
+                <TeamSection/>
+                <NewsSection/>
             </main>
+                <Footer/>
         </div>
     )
 }

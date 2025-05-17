@@ -39,13 +39,12 @@ export default function CustomCursor() {
   return (
     <>
       <div
-        ref={cursorRef}
-        className="custom-cursor fixed pointer-events-none z-50 w-8 h-8 rounded-full border-2 border-orange-500 transform -translate-x-1/2 -translate-y-1/2"
-        style={{ opacity: 0.5 }}
+      ref={cursorRef}
+      className="custom-cursor fixed pointer-events-none z-50 w-6 h-6 rounded-full bg-[#ffad7fd1] transform -translate-x-1/2 -translate-y-1/2 "
       />
       <div
-        ref={cursorDotRef}
-        className="custom-cursor fixed pointer-events-none z-50 w-2 h-2 bg-orange-500 rounded-full transform -translate-x-1/2 -translate-y-1/2"
+      ref={cursorDotRef}
+      className="custom-cursor fixed pointer-events-none z-50 w-2 h-2 bg-orange-500 rounded-full transform -translate-x-1/2 -translate-y-1/2"
       />
     </>
   )

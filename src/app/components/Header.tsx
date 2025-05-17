@@ -94,10 +94,10 @@ export default function Header() {
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
-            {["Home", "Pages", "Project", "Shop", "Blog", "Contact Us"].map((item) => (
+            {["home", "pages", "project", "shop", "blog", "contact Us"].map((item) => (
               <motion.a
                 key={item}
-                href="#"
+                href={item}
                 className="relative font-medium"
                 whileHover={{ scale: 1.05 }}
                 onMouseEnter={handleMouseEnter}

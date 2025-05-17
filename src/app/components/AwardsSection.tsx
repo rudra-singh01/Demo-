@@ -59,7 +59,7 @@ export default function AwardsSection() {
 
   return (
     <motion.div 
-      className="text-white py-20"
+      className="text-white py-20 z-20"
       style={{
         backgroundImage: "url('https://img.freepik.com/free-vector/grey-hexagons-black-background_78370-2098.jpg?t=st=1746376646~exp=1746380246~hmac=c71f8725d08c7fd51210c63da7ba1a3879fd7bc88e0142cbaf136e969d9417cd&w=1380')",
         backgroundSize: 'cover',
